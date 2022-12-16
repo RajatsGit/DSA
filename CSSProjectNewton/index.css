@@ -1,0 +1,17 @@
+.btn-light:hover{
+    background-color: transparent;
+    color: white;
+}
+.container{
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:650px){
+   .container{
+    height: auto;
+    align-items:none;
+   }
+
+}

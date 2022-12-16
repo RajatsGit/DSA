@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html> 
+       <head>
+                <meta> </meta>
+                <title> Newton School Juno </title>
+                
+<style>
+                /* Cascading styleSheets - CSS */ /*- gather all designs if there is any contradicting resolve it*/
+                div{
+                        /* Select by tag name */
+                        background-color: #008000;
+                        /* Select by id name */
+                    }
+                    #div1{
+                         background-color: green;
+                     }   
+                     
+                    #div2{
+                         background-color: blue;
+                     }   
+                     
+                    #div3{
+                         background-color: red;
+                     } 
+                     /* Select by class */
+                    .box{
+                        background-color:yellow;
+                    }
+                    /* If you have contradicting style then id > class > tagname */
+                    .demo{
+                        background-color: aqua;
+                    }
+                    /* Immediate Siblings select only */
+                    div + p{
+                        background-color: black;
+                    }
+                    /* All Siblings select only */
+                    div ~ p{
+                        background-color: black;
+                    }
+                    /* Immediate child not grand child*/
+                    div>p{
+                        background-color: aqua;
+                    }
+                    div p{
+                        color: red;
+                    }
+                    #target p{
+                        background-color: violet;
+                    }
+                    /* Applying style when at one state - pesudo class */
+                    button:hover{
+                        background-color: red;
+                        color: blue;
+                    }
+                    /*unvisited link*/
+                    a:link{
+                        color: red;
+
+                    }
+                    /*visited link*/
+                    a:visited{
+                        color: green;
+
+                    }
+                    a:active{
+                        color: blue;
+
+                    }
+                    a:hover{
+                        color: pink;
+
+                    }
+                </style>
+       </head>
+                   <body> 
+                   <div id="div1">This is div1</div>
+                   <div id="div2">This is div2</div>
+                   <div id="div3" class="box demo">This is div3</div>
+                   <div id="target">
+                    <p>wer3</p>
+                    <p>dsccv</p>
+                     <section>
+                        <p>dcvw</p>
+                     </section>
+                   </div>
+                   <p>xvcev</p>
+                   <div>
+                    <p>jsdfkw</p>
+                    <p>djsbcjqewvfqj</p>
+                   </div>
+                   <p>dcvw</p>
+                   <p>xvcev</p>
+                   <button>This is button</button>
+                   <a href="www.google.com" target="_blank">Google</a>
+
+                   </body>
+
+</html>

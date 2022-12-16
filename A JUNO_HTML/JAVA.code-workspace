@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Mock"
+		},
+		{
+			"path": "../../Compiler_Project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JAVA"
+	}
+}

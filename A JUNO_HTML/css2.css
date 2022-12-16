@@ -1,0 +1,35 @@
+
+/* Select only those who have target attribute */
+ a[target="_blank"]{
+    /* background-color: red; */
+    background: red;
+   }
+   p[title~="flower"]{
+    background-color: aqua;
+   }
+   /* Select all p elements those who are first child of their parents */
+   p:first-child{
+    background-color: blue;
+   }
+   p:nth-child(3){
+    background-color: red;
+   }
+   input:focus{
+    background-color: red;
+   }
+   /* After each paragraph insert something */
+   /* p: ------> is for psudo classes p::--------> is for pseudo elements */
+   p::after{
+    content:"This is end of paragraph";
+    /* content: url(smiley.gif); */
+   }
+   p::before{
+    content:"This is start";
+   }
+   p::selection{
+    background-color: yellow;
+    color: red;
+    background: none;
+    stroke
+   }
+   
